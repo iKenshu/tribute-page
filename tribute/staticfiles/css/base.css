@@ -1,0 +1,54 @@
+body{
+    background: #111;
+    color: #dadada;
+    width: 900px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: #3C6681;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.Image{
+    background: #1c1c1c;
+    padding: .5em;
+    margin: 0;
+}
+.Image-tribute{
+    -webkit-filter: grayscale(1);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Title, .Title-description{
+    text-align: center;
+}
+
+.Event-title{
+    padding: 1em;
+}
+
+.Event-container{
+    background: #1c1c1c;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.Event-list{
+    padding: 1px;
+}
+
+.Event-item{
+    width: 50%;
+    margin: 1em auto;
+}
+
+.Tribute-source{
+    text-align: center;
+    font-style: italic;
+}

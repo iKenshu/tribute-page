@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<ul class="Event-list">
+    {% for event in object_list %}
+        <li class="Event-item"><strong>{{event.year}}</strong> | {{event.text}}</li>
+        
+    {% endfor %}
+</ul>
+
+{% endblock content %}

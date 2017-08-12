@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="{% static "css/base.css" %}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <h1 class="Title">Hugo Chávez Frías</h1>
+    <h2 class="Title-description">The man who destroyed Venezuela</h2>
+    
+    <figure class="Image">
+        <img class="Image-tribute" src="{% static "img/chavez3.jpg" %}" alt="">
+        <figcaption>hola chavez</figcaption>
+    </figure>
+
+    <div class="Event-container">
+        <h3 class="Event-title">Here's a time line of Hugo Chávez's life:</h3>
+        {% block content %}
+            
+        {% endblock content %}
+    </div>
+<p class="Tribute-source">If you want to know more in detail about Hugo Chavez check his <a href="https://en.wikipedia.org/wiki/Hugo_Ch%C3%A1vez">Wikipedia Page</a></p>
+</body>
+</html>
